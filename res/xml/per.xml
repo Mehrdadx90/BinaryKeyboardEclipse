@@ -1,0 +1,181 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyHeight="45dp"
+    android:keyWidth="10%p"
+    android:verticalGap="0px" >
+
+    <Row>
+        <Key
+            android:codes="1"
+            android:keyEdgeFlags="left"
+            android:keyLabel="۱" />
+        <Key
+            android:codes="2"
+            android:keyLabel="۲" />
+        <Key
+            android:codes="3"
+            android:keyLabel="۳" />
+        <Key
+            android:codes="4"
+            android:keyLabel="۴" />
+        <Key
+            android:codes="5"
+            android:keyLabel="۵" />
+        <Key
+            android:codes="6"
+            android:keyLabel="۶" />
+        <Key
+            android:codes="7"
+            android:keyLabel="۷" />
+        <Key
+            android:codes="8"
+            android:keyLabel="۸" />
+        <Key
+            android:codes="9"
+            android:keyLabel="۹" />
+        <Key
+            android:codes="10"
+            android:keyEdgeFlags="right"
+            android:keyLabel="۰" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="12,13"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ص"
+            android:popupCharacters="ض"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="14"
+            android:keyLabel="ث" />
+        <Key
+            android:codes="15"
+            android:keyLabel="ق" />
+        <Key
+            android:codes="16"
+            android:keyLabel="ف" />
+        <Key
+            android:codes="18,17"
+            android:keyLabel="ع"
+            android:popupCharacters="غ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="19"
+            android:keyLabel="ه" />
+        <Key
+            android:codes="20"
+            android:keyLabel="خ" />
+        <Key
+            android:codes="21"
+            android:keyLabel="ح" />
+        <Key
+            android:codes="200"
+            android:keyLabel="ج" />
+        <Key
+            android:codes="39"
+            android:keyEdgeFlags="right"
+            android:keyLabel="چ" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="22"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ش" />
+        <Key
+            android:codes="23"
+            android:keyLabel="س" />
+        <Key
+            android:codes="24,201"
+            android:keyLabel="ی"
+            android:popupCharacters="ئ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="25"
+            android:keyLabel="ب" />
+        <Key
+            android:codes="26"
+            android:keyLabel="ل" />
+        <Key
+            android:codes="27,202"
+            android:keyLabel="ا"
+            android:popupCharacters="آ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="28"
+            android:keyLabel="ت" />
+        <Key
+            android:codes="29"
+            android:keyLabel="ن" />
+        <Key
+            android:codes="30"
+            android:keyLabel="م" />
+        <Key
+            android:codes="203"
+            android:keyEdgeFlags="right"
+            android:keyLabel="پ" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="130"
+            android:keyEdgeFlags="left"
+            android:keyLabel="En"
+            android:keyWidth="20%p" />
+        <Key
+            android:codes="33,34"
+            android:keyLabel="ط"
+            android:popupCharacters="ظ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="35,204"
+            android:keyLabel="ز"
+            android:popupCharacters="ژ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="36"
+            android:keyLabel="ر" />
+        <Key
+            android:codes="206"
+            android:keyLabel="و" />
+        <Key
+            android:codes="38,37"
+            android:keyLabel="د"
+            android:popupCharacters="ذ"
+            android:popupKeyboard="@xml/popup" />
+        <Key
+            android:codes="40"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ک" />
+        <Key
+            android:codes="42"
+            android:keyEdgeFlags="right"
+            android:keyLabel="گ" />
+        <Key
+            android:codes="-5"
+            android:keyEdgeFlags="right"
+            android:keyLabel="پاک کردن"
+            android:isRepeatable="true"
+            android:keyWidth="10%p" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="47"
+            android:keyLabel="!"
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="47"
+            android:keyLabel="؟"
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyLabel="فاصله"
+            android:keyWidth="50%p" />
+        <Key
+            android:codes="2151"
+            android:keyEdgeFlags="right"
+            android:keyLabel="رمز گشا"
+            android:keyWidth="20%p" />
+        
+    </Row>
+
+</Keyboard>
